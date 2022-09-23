@@ -1,7 +1,7 @@
 node{
   def mavenHome = tool name: 'Maven'
   stage('1cloneCode'){
-    git "https://github.com/LandmakTechnology/maven-web-application"
+    git "https://github.com/YinkaTi/maven-web-application"
     }
   }
   stage('2Test&Build'){
